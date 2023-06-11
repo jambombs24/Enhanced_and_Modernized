@@ -8,7 +8,10 @@ The Wabbajack files are here: [Enhanced and Modernized - Wabbajack Modlist](http
 ## Requirements
 
 - Skyrim AE in your Steam library, WITH the Anniversary Edition upgrade.
-- At boatload of storage.
+- 160GB of free space, which must be on one drive (139 for installation, 20 for page file, and then 1 more for whatever else generates.
+  - At least 200GB is recommended, so you can make an even larger page file, or store extra files.
+  - This drive must have at least 15% of completely free space left over.
+- Another 82GB for mod downloads, on any drive (installation speed is as fast as the slowest drive).
 
 ## Installation Guide
 
