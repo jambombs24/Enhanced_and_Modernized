@@ -75,10 +75,18 @@ First, download ENB version 0.493 (or newer) from the [ENB website](http://enbde
 
 Once you have the ENB .zip file, delete the enbseries_sdk archive from inside of the parent archive. You can do this by either extracting the whole zip, deleting enbseries_sdk.zip, and recompressing the rest, or by using a tool like PeaZip that allows direct archive editing.
 
-![ENB archive folder structure.](/assets/enb_zip.png)
+![ENB archive folder structure.](/enb_zip.PNG)
 
 Now drag the ENB archive into MO2's downloads area. Double-click to install. Right click on "<data>" at the top of choose to create a directory. Name it "Root" (no quotes, but make sure the R is capitalized!). Now expand the "Wrapper Version" directory, find d3d11.dll and d3dcompiler_46e.dll and drag them into Root.
-  
-After that, uncheck the boxes for Linux Version, Wrapper Version, and the two .url files.
 
+After that, uncheck the boxes for Linux Version, Wrapper Version, and the two .url files.
+  
+![ENB installation heirarchy.](enb_dirs.PNG)
+  
 Press OK to install. MO2 will show a warning; install anyway. Then move the newly installed ENB mod to the top of the ENB section. You can change the name and version to the correct values if you want to.
+
+![ENB in position.](enb_placed.PNG)
+  
+To ensure that you've done this correctly, you can check MO2's virtual file system. Use the explorer virtual system in the executables menu to open Explorer++, and then go up one directory. You should see d3d11.dll and d3dcompiler_46e.dll in Skyrim's root folder.
+  
+![ENB in VFS.](enb_virt.PNG)
