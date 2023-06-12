@@ -68,3 +68,9 @@ Open up Wabbajack if you closed it. Press the "Install from Disk" button. There 
 
 #### Step Six: Modlist Installation
 Click the play button to the right of the config options to begin installation.
+
+#### Step Seven: Finishing Setup
+The last setup task left is to install ENB.
+First, download ENB version 0.493 (or newer) from the [ENB website](http://enbdev.com/download_mod_tesskyrimse.html).
+
+Once you have the ENB .zip file, delete the enbseries_sdk archive from inside of the parent archive. You can do this by either extracting the whole zip, deleting enbseries_sdk.zip, and recompressing the rest, or by using a tool like PeaZip that allows direct archive editing.
