@@ -32,6 +32,10 @@ To help make the game run as well as possible, you need to increase the size of 
 - Keep pressing OK until you get out of all the settings windows.
 - Restart your computer.
 
+![Page file setup window.](page_size.PNG)
+
+*I don't care how much RAM you have; you need to do this.*
+
 ### Step Two: Prepare Skyrim
 Uninstall Skyrim completely from your system. Then delete the whole Steam directory, which is typically something like *~\Steam\steamapps\common\Skyrim Special Edition*. Also delete the Skyrim folder at *~\Documents\My Games*.
 
@@ -49,17 +53,20 @@ Create an account for the following websites if you don't already have one:
 - [Nexus Mods](https://www.nexusmods.com/)
 - [LoversLab](https://www.loverslab.com/)
 
+*I think LoversLab is banned in some countries. You may need a VPN if LL has indeed been blocked.*
+
 ### Step Four: Acquire Wabbajack
 Go to [Wabbajack.org](https://www.wabbajack.org/) and download the program.
 
-Place the downloaded executable somewhere outside of any protected files. I have it placed in *C:\Modding\Wabbajack*. When you run this Wabbajack executable, is will automatically download the latest version of the entire Wabbajack program.
+Place the downloaded executable somewhere outside of any protected files. I have it placed in *C:\Modding\Wabbajack*. When you run this executable, is will automatically download the latest version of the entire Wabbajack program.
 
 Once you've launched Wabbajack, click the settings button in the top right. Connect to your LoversLab and Nexus accounts.
 
 ### Step Five: Prepare the Enhanced and Modernized installer.
 Download the .wabbajack file from its [Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/93277) page.
+Don't worry about downloading the resources file; Wabbajack will handle that later.
 
-Before actually using this file, we need to prepare for where the modlist is going to go.
+Before actually using this file, we need to prepare where the modlist is going to go.
 Create an empty directory, also outside of any protected folders, for where everything will be installed. For example, *C:\Games\Skyrim_EnhancedAndModernized*.
 
 Open up Wabbajack if you closed it. Press the "Install from Disk" button. There are three options that must be configured:
@@ -79,7 +86,9 @@ After every mod is downloaded, Wabbajack will install them all, alongside Mod Or
 In the event that the installation fails, your computer shuts off, or whatever else, you won't have to re-download any mods.
 
 ### Step Seven: Finishing Setup
-The last setup task left is to install ENB.
+The last setup task left is to install ENB. This had to be done manually because we're using Root Builder, and redistributing the ENB files is prohibited.
+Also, you'll always be able to use the latest ENB version without the modlist breaking.
+
 First, download ENB version 0.493 (or newer) from the [ENB website](http://enbdev.com/download_mod_tesskyrimse.html).
 
 Once you have the ENB .zip file, delete the enbseries_sdk archive from inside of the parent archive. You can do this by either extracting the whole zip, deleting enbseries_sdk.zip, and recompressing the rest, or by using a tool like PeaZip that allows direct archive editing.
@@ -96,7 +105,7 @@ Press OK to install. MO2 will show a warning; install anyway. Then move the newl
 
 ![ENB in position.](enb_placed.PNG)
 
-To ensure that you've done this correctly, you can check MO2's virtual file system. Use the explorer virtual system in the executables menu to open Explorer++, and then go up one directory. You should see d3d11.dll and d3dcompiler_46e.dll in Skyrim's root folder.
+To ensure that you've done this correctly, you can check MO2's virtual file system. Use the explorer virtual folder in the executables menu to open Explorer++, and then go up one directory. You should see d3d11.dll and d3dcompiler_46e.dll in Skyrim's root folder.
 
 ![ENB in VFS.](enb_virt.PNG)
 
