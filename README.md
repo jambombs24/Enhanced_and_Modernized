@@ -67,7 +67,15 @@ Open up Wabbajack if you closed it. Press the "Install from Disk" button. There 
 - Resource Download Location: This is where all the mod archives will be downloaded to. This could be anywhere, but make sure you have enough space!
 
 #### Step Six: Modlist Installation
-Click the play button to the right of the config options to begin installation.
+Click the play button to the right of the config options to begin installation. This process will take some time.
+
+Mods that are not hosted on Nexus will be downloaded first. For each of these, a browser will open with a prompt at the top of the screen telling you which file to download.
+
+As for the Nexus-hosted mods themselves, you'll be taken directly to the exact file download you need. If you have a premium Nexus account, then you don't need to do anything else. If you have a free Nexus account, then the slow downloaded button must be clicked for each mod.
+
+After every mod is downloaded, Wabbajack will install them all, alongside Mod Organizer 2 itself. After the installation has been completed, run MO2 to access the modlist.
+
+In the event that the installation fails, your computer shuts off, or whatever else, you won't have to re-download any mods.
 
 #### Step Seven: Finishing Setup
 The last setup task left is to install ENB.
@@ -77,16 +85,28 @@ Once you have the ENB .zip file, delete the enbseries_sdk archive from inside of
 
 ![ENB archive folder structure.](/enb_zip.PNG)
 
-Now drag the ENB archive into MO2's downloads area. Double-click to install. Right click on "<data>" at the top of choose to create a directory. Name it "Root" (no quotes, but make sure the R is capitalized!). Now expand the "Wrapper Version" directory, find d3d11.dll and d3dcompiler_46e.dll and drag them into Root.
+Now drag the ENB archive into MO2's downloads area. Double-click to install. Right click on data at the top and choose to create a directory. Name it "Root" (no quotes, but make sure the R is capitalized!). Now expand the "Wrapper Version" directory, find d3d11.dll and d3dcompiler_46e.dll and drag them into Root.
 
 After that, uncheck the boxes for Linux Version, Wrapper Version, and the two .url files.
-  
+
 ![ENB installation heirarchy.](enb_dirs.PNG)
-  
+
 Press OK to install. MO2 will show a warning; install anyway. Then move the newly installed ENB mod to the top of the ENB section. You can change the name and version to the correct values if you want to.
 
 ![ENB in position.](enb_placed.PNG)
-  
+
 To ensure that you've done this correctly, you can check MO2's virtual file system. Use the explorer virtual system in the executables menu to open Explorer++, and then go up one directory. You should see d3d11.dll and d3dcompiler_46e.dll in Skyrim's root folder.
-  
+
 ![ENB in VFS.](enb_virt.PNG)
+
+#### Step Eight: Voicing
+
+At the end of the list in MO2's left panel, you'll see a section labaled optional. This is where the Dragonborn Voice Over mods and related content have been placed. I've placed these here because some people like having their character voiced, and others prefer their character to remain unvoiced.
+  
+If you do not want your player character to have voiced lines, disable all of these mods. If you do want the player character to speak, then leave these enabled.
+  
+Also, if you're using some kind of surround sound, enable "Dragonborn Voice Over - Surround Plugin Replacer" and "Dragonborn Voice Over - Reverb Interior Sound Expansion Patch - Surround" to make sure audio plays properly.
+  
+#### Step Nine: Skyrim
+  
+Go play the game.
