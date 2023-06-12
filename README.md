@@ -74,3 +74,9 @@ The last setup task left is to install ENB.
 First, download ENB version 0.493 (or newer) from the [ENB website](http://enbdev.com/download_mod_tesskyrimse.html).
 
 Once you have the ENB .zip file, delete the enbseries_sdk archive from inside of the parent archive. You can do this by either extracting the whole zip, deleting enbseries_sdk.zip, and recompressing the rest, or by using a tool like PeaZip that allows direct archive editing.
+
+Now drag the ENB archive into MO2's downloads area. Double-click to install. Right click on "<data>" at the top of choose to create a directory. Name it "Root" (no quotes, but make sure the R is capitalized!). Now expand the "Wrapper Version" directory, find d3d11.dll and d3dcompiler_46e.dll and drag them into Root.
+  
+After that, uncheck the boxes for Linux Version, Wrapper Version, and the two .url files.
+
+Press OK to install. MO2 will show a warning; install anyway. Then move the newly installed ENB mod to the top of the ENB section. You can change the name and version to the correct values if you want to.
