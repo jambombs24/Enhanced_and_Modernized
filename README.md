@@ -15,7 +15,7 @@ The Wabbajack files are here: [Enhanced and Modernized - Wabbajack Modlist](http
 
 ## Installation Guide
 
-#### Step One: Prepare Your Computer
+### Step One: Prepare Your Computer
 To help make the game run as well as possible, you need to increase the size of the page file.
 
 - Start typing "Advanced system settings" into your Windows search bar, and select "View Advanced System Settings" when it appears.
@@ -27,11 +27,12 @@ To help make the game run as well as possible, you need to increase the size of 
 - Select whatever drive you plan to install Skyrim on.
 - Select the "Custom size" option.
 - Set the minimum to at least 20480 (20GB), and the maximum to something higher (recommended: 40960 (40GB)).
+  - Note: You need to have enough free space on your drive to fit the whole page file.
 - Press "Set" to commit your changes.
 - Keep pressing OK until you get out of all the settings windows.
 - Restart your computer.
 
-#### Step Two: Prepare Skyrim
+### Step Two: Prepare Skyrim
 Uninstall Skyrim completely from your system. Then delete the whole Steam directory, which is typically something like *~\Steam\steamapps\common\Skyrim Special Edition*. Also delete the Skyrim folder at *~\Documents\My Games*.
 
 Now we're going to reinstall it! Install the game.
@@ -43,19 +44,19 @@ Now launch Skyrim through Steam. Let the launcher set a graphics preset, and the
 At this point you should have a stock installation of Skyrim AE.
 Let's move on.
 
-#### Step Three: Accounts
+### Step Three: Accounts
 Create an account for the following websites if you don't already have one:
 - [Nexus Mods](https://www.nexusmods.com/)
 - [LoversLab](https://www.loverslab.com/)
 
-#### Step Four: Acquire Wabbajack
+### Step Four: Acquire Wabbajack
 Go to [Wabbajack.org](https://www.wabbajack.org/) and download the program.
 
 Place the downloaded executable somewhere outside of any protected files. I have it placed in *C:\Modding\Wabbajack*. When you run this Wabbajack executable, is will automatically download the latest version of the entire Wabbajack program.
 
 Once you've launched Wabbajack, click the settings button in the top right. Connect to your LoversLab and Nexus accounts.
 
-#### Step Five: Prepare the Enhanced and Modernized installer.
+### Step Five: Prepare the Enhanced and Modernized installer.
 Download the .wabbajack file from its [Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/93277) page.
 
 Before actually using this file, we need to prepare for where the modlist is going to go.
@@ -66,7 +67,7 @@ Open up Wabbajack if you closed it. Press the "Install from Disk" button. There 
 - Modlist Installation Location: Point this to where you decided the installed modlist will go.
 - Resource Download Location: This is where all the mod archives will be downloaded to. This could be anywhere, but make sure you have enough space!
 
-#### Step Six: Modlist Installation
+### Step Six: Modlist Installation
 Click the play button to the right of the config options to begin installation. This process will take some time.
 
 Mods that are not hosted on Nexus will be downloaded first. For each of these, a browser will open with a prompt at the top of the screen telling you which file to download.
@@ -77,7 +78,7 @@ After every mod is downloaded, Wabbajack will install them all, alongside Mod Or
 
 In the event that the installation fails, your computer shuts off, or whatever else, you won't have to re-download any mods.
 
-#### Step Seven: Finishing Setup
+### Step Seven: Finishing Setup
 The last setup task left is to install ENB.
 First, download ENB version 0.493 (or newer) from the [ENB website](http://enbdev.com/download_mod_tesskyrimse.html).
 
@@ -99,14 +100,16 @@ To ensure that you've done this correctly, you can check MO2's virtual file syst
 
 ![ENB in VFS.](enb_virt.PNG)
 
-#### Step Eight: Voicing
+### Step Eight: Voicing
 
-At the end of the list in MO2's left panel, you'll see a section labaled optional. This is where the Dragonborn Voice Over mods and related content have been placed. I've placed these here because some people like having their character voiced, and others prefer their character to remain unvoiced.
+At the end of the list in MO2's left panel, you'll see a section labaled optional. This is where the Dragonborn Voice Over mod and related content have been placed. I've placed these here because some people like having their character voiced, and others prefer their character to remain unvoiced.
   
 If you do not want your player character to have voiced lines, disable all of these mods. If you do want the player character to speak, then leave these enabled.
   
 Also, if you're using some kind of surround sound, enable "Dragonborn Voice Over - Surround Plugin Replacer" and "Dragonborn Voice Over - Reverb Interior Sound Expansion Patch - Surround" to make sure audio plays properly.
   
-#### Step Nine: Skyrim
-  
-Go play the game.
+### Step Nine: Skyrim
+
+Read [this article](https://www.nexusmods.com/skyrimspecialedition/articles/5316).
+
+Then you're free. Go play the game.
