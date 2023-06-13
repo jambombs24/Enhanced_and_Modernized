@@ -119,6 +119,26 @@ Also, if you're using some kind of surround sound, enable "Dragonborn Voice Over
   
 ### Step Nine: Skyrim
 
-Read [this article](https://www.nexusmods.com/skyrimspecialedition/articles/5316).
+It's finally time to run the game! Go ahead and start it up.
 
-Then you're free. Go play the game.
+When you get to the main menu, press "o" to open the Open Animation Replacer GUI. Press the settings button in the bottom right, and rebind the menu key to something that won't conflict.
+I'm using "p". Close the menu with your new keybind once it's set.
+
+Now press the "Home" key to open the ENB GUI. In the upper left section, expand Input. Scroll down a little so you can see the setting for KeyEditor. Rebind the key to something else that won't conflict.
+I'm using ";". Then press the Save Configuration button above the dropdowns. Close the ENB menu.
+
+Just a few more tweaks! Exit Skyrim entirely. You'll notice that a bunch of files have been generated in overwrite. You can ignore the Root and ShaderCache folders.
+
+Expand the SKSE folder and then the Plugins folder. Inside of here you'll find a bunch of files, most of which are logs. You can leave these alone. The rest are INI files, but we only need to mess with one of them.
+
+Open up overwrite in your actual file explorer and then locate PapyrusTweaks.ini. Open this file, increase iMaxOpsPerFrame from 500 to 1500, and set bSpeedUpNativeCalls to true. Save and exit the file.
+
+We're pretty much done now. If you want, you can create an empty mod above overwrite and move everything into there. You can also create a separator above the main game plugins and CC Content.
+
+The last thing you need to do is to read this article: [Skyrim Saving Shenanigans](https://www.nexusmods.com/skyrimspecialedition/articles/5316).
+
+While you don't have to do anything recommended by this article, doing so can help protect your saves from corruption. Up to you though.
+
+### Step Ten: Game
+
+Go play the game.
