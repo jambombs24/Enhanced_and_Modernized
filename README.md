@@ -3,15 +3,11 @@ Github page for the Skyrim load order Enhanced and Modernized.
 
 The list itself is here: [Skyrim 2023 Mega Mod List](https://www.nexusmods.com/skyrimspecialedition/mods/82863).
 
-The Wabbajack files are here: [Enhanced and Modernized - Wabbajack Modlist](https://www.nexusmods.com/skyrimspecialedition/mods/93277).
-
 ## Requirements
 
-- Skyrim AE in your Steam library, WITH the Anniversary Edition upgrade.
-- 160GB of free space, which must be on one drive (139 for installation, 20 for page file, and then 1 more for whatever else generates.
-  - At least 200GB is recommended, so you can make an even larger page file, or store extra files.
-  - This drive must have at least 15% of completely free space left over.
-- Another 82GB for mod downloads, on any drive (installation speed is as fast as the slowest drive).
+- Skyrim Special Edition from either Steam (1.6.640) or GOG (1.6.659).
+- The Anniversary Edition upgrade.
+- A 64-bit operating system.
 
 ## Installation Guide
 
@@ -27,7 +23,7 @@ To help make the game run as well as possible, you need to increase the size of 
 - Select whatever drive you plan to install Skyrim on.
 - Select the "Custom size" option.
 - Set the minimum to at least 20480 (20GB), and the maximum to something higher (recommended: 40960 (40GB)).
-  - Note: You need to have enough free space on your drive to fit the whole page file.
+  - You need to have enough free space on your drive to fit the whole page file, even after intsalling this list.
 - Press "Set" to commit your changes.
 - Keep pressing OK until you get out of all the settings windows.
 - Restart your computer.
@@ -37,15 +33,13 @@ To help make the game run as well as possible, you need to increase the size of 
 *I don't care how much RAM you have; you need to do this.*
 
 ### Step Two: Prepare Skyrim
-Uninstall Skyrim completely from your system. Then delete the whole Steam directory, which is typically something like *~\Steam\steamapps\common\Skyrim Special Edition*. Also delete the Skyrim folder at *~\Documents\My Games*.
+Uninstall Skyrim completely from your system. Then delete the whole Skyrim SE directory, which is typically something like *~\Steam\steamapps\common\Skyrim Special Edition*. Also delete the Skyrim folder at *~\Documents\My Games*.
 
-Now we're going to reinstall it! Install the game.
+We're going to reinstall it! Install the game. If you're on GOG, make sure to download all the DLC content too.
 
-After doing this, you should have a **completely unmodified Skyrim installation**.
+Now launch Skyrim. Let the launcher set a graphics preset, and then load to Skyrim's main menu. If you haven't downloaded the CC content yet, go ahead and do so. Exit the game afterwards.
 
-Now launch Skyrim through Steam. Let the launcher set a graphics preset, and then load to Skyrim's main menu. You should get the popup to download the Anniversary Edition Creation Club content. Go ahead and download all those. Once all the creations are downloaded, exit Skyrim entirely.
-
-At this point you should have a stock installation of Skyrim AE.
+After doing all this, you should have a **completely vanilla Skyrim AE installation**.
 Let's move on.
 
 ### Step Three: Accounts
@@ -60,85 +54,4 @@ Go to [Wabbajack.org](https://www.wabbajack.org/) and download the program.
 
 Place the downloaded executable somewhere outside of any protected files. I have it placed in *C:\Modding\Wabbajack*. When you run this executable, is will automatically download the latest version of the entire Wabbajack program.
 
-Once you've launched Wabbajack, click the settings button in the top right. Connect to your LoversLab and Nexus accounts.
-
-### Step Five: Prepare the Enhanced and Modernized installer.
-Download the .wabbajack file from its [Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/93277) page.
-Don't worry about downloading the resources file; Wabbajack will handle that later.
-
-Before actually using this file, we need to prepare where the modlist is going to go.
-Create an empty directory, also outside of any protected folders, for where everything will be installed. For example, *C:\Games\Skyrim_EnhancedAndModernized*.
-
-Open up Wabbajack if you closed it. Press the "Install from Disk" button. There are three options that must be configured:
-- Target Modlist: Set this to the Enhanced and Modernized .wabbajack file.
-- Modlist Installation Location: Point this to where you decided the installed modlist will go.
-- Resource Download Location: This is where all the mod archives will be downloaded to. This could be anywhere, but make sure you have enough space!
-
-### Step Six: Modlist Installation
-Click the play button to the right of the config options to begin installation. This process will take some time.
-
-Mods that are not hosted on Nexus will be downloaded first. For each of these, a browser will open with a prompt at the top of the screen telling you which file to download.
-
-As for the Nexus-hosted mods themselves, you'll be taken directly to the exact file download you need. If you have a premium Nexus account, then you don't need to do anything else. If you have a free Nexus account, then the slow downloaded button must be clicked for each mod.
-
-After every mod is downloaded, Wabbajack will install them all, alongside Mod Organizer 2 itself. After the installation has been completed, run MO2 to access the modlist.
-
-In the event that the installation fails, your computer shuts off, or whatever else, you won't have to re-download any mods.
-
-### Step Seven: Finishing Setup
-The last setup task left is to install ENB. This had to be done manually because we're using Root Builder, and redistributing the ENB files is prohibited.
-Also, you'll always be able to use the latest ENB version without the modlist breaking.
-
-First, download ENB version 0.493 (or newer) from the [ENB website](http://enbdev.com/download_mod_tesskyrimse.html).
-
-Once you have the ENB .zip file, delete the enbseries_sdk archive from inside of the parent archive. You can do this by either extracting the whole zip, deleting enbseries_sdk.zip, and recompressing the rest, or by using a tool like PeaZip that allows direct archive editing.
-
-![ENB archive folder structure.](/enb_zip.PNG)
-
-Now drag the ENB archive into MO2's downloads area. Double-click to install. Right click on data at the top and choose to create a directory. Name it "Root" (no quotes, but make sure the R is capitalized!). Now expand the "Wrapper Version" directory, find d3d11.dll and d3dcompiler_46e.dll and drag them into Root.
-
-After that, uncheck the boxes for Linux Version, Wrapper Version, and the two .url files.
-
-![ENB installation heirarchy.](enb_dirs.PNG)
-
-Press OK to install. MO2 will show a warning; install anyway. Then move the newly installed ENB mod to the top of the ENB section. You can change the name and version to the correct values if you want to.
-
-![ENB in position.](enb_placed.PNG)
-
-To ensure that you've done this correctly, you can check MO2's virtual file system. Use the explorer virtual folder in the executables menu to open Explorer++, and then go up one directory. You should see d3d11.dll and d3dcompiler_46e.dll in Skyrim's root folder.
-
-![ENB in VFS.](enb_virt.PNG)
-
-### Step Eight: Voicing
-
-At the end of the list in MO2's left panel, you'll see a section labaled optional. This is where the Dragonborn Voice Over mod and related content have been placed. I've placed these here because some people like having their character voiced, and others prefer their character to remain unvoiced.
-  
-If you do not want your player character to have voiced lines, disable all of these mods. If you do want the player character to speak, then leave these enabled.
-  
-Also, if you're using some kind of surround sound, enable "Dragonborn Voice Over - Surround Plugin Replacer" and "Dragonborn Voice Over - Reverb Interior Sound Expansion Patch - Surround" to make sure audio plays properly.
-  
-### Step Nine: Skyrim
-
-It's finally time to run the game! Go ahead and start it up.
-
-When you get to the main menu, press "o" to open the Open Animation Replacer GUI. Press the settings button in the bottom right, and rebind the menu key to something that won't conflict.
-I'm using "p". Close the menu with your new keybind once it's set.
-
-Now press the "Home" key to open the ENB GUI. In the upper left section, expand Input. Scroll down a little so you can see the setting for KeyEditor. Rebind the key to something else that won't conflict.
-I'm using ";". Then press the Save Configuration button above the dropdowns. Close the ENB menu.
-
-Just a few more tweaks! Exit Skyrim entirely. You'll notice that a bunch of files have been generated in overwrite. You can ignore the Root and ShaderCache folders.
-
-Expand the SKSE folder and then the Plugins folder. Inside of here you'll find a bunch of files, most of which are logs. You can leave these alone. The rest are INI files, but we only need to mess with one of them.
-
-Open up overwrite in your actual file explorer and then locate PapyrusTweaks.ini. Open this file, increase iMaxOpsPerFrame from 500 to 1500, and set bSpeedUpNativeCalls to true. Save and exit the file.
-
-We're pretty much done now. If you want, you can create an empty mod above overwrite and move everything into there. You can also create a separator above the main game plugins and CC Content.
-
-The last thing you need to do is to read this article: [Skyrim Saving Shenanigans](https://www.nexusmods.com/skyrimspecialedition/articles/5316).
-
-While you don't have to do anything recommended by this article, doing so can help protect your saves from corruption. Up to you though.
-
-### Step Ten: Game
-
-Go play the game.
+Once you've launched Wabbajack, click the settings button in the top right. Connect to your Nexus account.
