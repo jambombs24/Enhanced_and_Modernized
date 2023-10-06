@@ -69,4 +69,24 @@ Go and download each of these:
 - [Lydia the Loyal](https://www.loverslab.com/files/file/27805-lydia-the-loyal/) (Latest SLab edition.)
 - [Jordis the Naive or Naughty](https://www.loverslab.com/files/file/27555-jordis-the-naive-or-naughty-sexlab-and-flower-girl-editions/) (Latest SLab edition.)
 
+You don't need to extract any of these. Wabbajack will do that later.
+
 ### Step Six: Wabbajack Prep
+Download the Enhanced and Modernized archive and extract it. Keep the two files in the same location.
+
+Now open the Wabbajack program, and choose the install from disk button on the home page.
+Select the .wabbajack file you just downloaded for "Target Modlist".
+
+For "Modlist Installation Location", choose where you want the modlist to go. It needs to be outside of Windows' User Account Control system.
+I recommend somewhere like "C:\Games\Skyrim_EM".
+This should also be an empty directory.
+
+"Resource Download Location" can be pretty much anywhere. By default, it'll be inside the modlist installation directory.
+You can even place the downloads folder on a separate drive. Just be aware that you're liimited to the speed of your slowest drive.
+After you've chosen a downloads location, place all the LoversLab archives there.
+
+### Step Seven: Installation
+When you're sure with all your file path decisions, press the button to start the Wabbajack installation process.
+
+This will take some time. If you have a Nexus Mods premium account, all Nexus files will download automatically.
+Otherwise, the download button must be pressed for each mod.
