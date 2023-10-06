@@ -55,3 +55,18 @@ Go to [Wabbajack.org](https://www.wabbajack.org/) and download the program.
 Place the downloaded executable somewhere outside of any protected files. I have it placed in *C:\Modding\Wabbajack*. When you run this executable, is will automatically download the latest version of the entire Wabbajack program.
 
 Once you've launched Wabbajack, click the settings button in the top right. Connect to your Nexus account.
+
+### Step Five: LoversLab Mods
+LoversLab has a buggy API, so it's easiest to download all the needed mods from there preemptively.
+Go and download each of these:
+(Parenthesis after the mod link will tell you which file to download, if necessary.)
+
+- [Schlongs of Skyrim AE - No DLL Version](https://www.loverslab.com/files/file/23433-schlongs-of-skyrim-ae-no-dll-version/)
+- [Schlongs of Skyrim Uncloaked](https://www.loverslab.com/files/file/19122-schlongs-of-skyrim-uncloaked/) (Main mod only.)
+- [Valerica - Serana's Mom Has Got it Goin On](https://www.loverslab.com/files/file/27333-valerica-seranas-mom-has-got-it-goin-on-sexlab-and-flower-girl-editions/) (Latest SLab edition.)
+- [Frea the Gullible](https://www.loverslab.com/files/file/27716-frea-the-gullible-sexlab-and-flower-girl-editions/) (Latest SLab edition.)
+- [Borgakh the Purchased Wife](https://www.loverslab.com/files/file/27424-borgakh-the-purchased-wife-slab-and-flower-girl-editions/) (Latest SLab edition.)
+- [Lydia the Loyal](https://www.loverslab.com/files/file/27805-lydia-the-loyal/) (Latest SLab edition.)
+- [Jordis the Naive or Naughty](https://www.loverslab.com/files/file/27555-jordis-the-naive-or-naughty-sexlab-and-flower-girl-editions/) (Latest SLab edition.)
+
+### Step Six: Wabbajack Prep
