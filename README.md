@@ -30,6 +30,7 @@ To help make the game run as well as possible, you need to increase the size of 
 
 ![Page file setup window.](page_size.PNG)
 
+
 *I don't care how much RAM you have; you need to do this.*
 
 ### Step Two: Prepare Skyrim
@@ -93,7 +94,45 @@ This will take some time. If you have a Nexus Mods premium account, all Nexus fi
 Otherwise, the download button must be pressed for each mod.
 
 If Wabbajack freezes, crashes, or otherwise has to shutdown, it will pick up downloading where it left off. I've never had it crash during the actual installation process.
+Speaking of...
 
 ### Step Eight: Installation
 Wabbajack will proceed to install Mod Organizer 2 and all the mods into the directory you specified earlier.
+This will also take a fair amount of time, although not nearly as much as the downloading step.
+
 Run the newly acquired Mod Organizer 2 executable to access the modlist.
+
+### Step Nine: ENB
+There's a few more additions to make before the modlist is fully installed.
+Start by heading to the [ENB Website](http://enbdev.com/download.html) and clicking on "TES Skyrim SE" in the graphics modification section.
+Download the latest version of ENB available.
+
+Delete "enbseries_sdk.zip" from inside the ENB archive.
+You can do this by using a tool that can manipulate archives like [PeaZip](https://peazip.github.io/), or by extracting the archive, deleting the file, and recompressing it.
+Either way, get rid of the SDK.
+
+![Edited ENB archive.](enb_zip.PNG)
+
+
+After that, drag the recompressed archive into MO2's downloads panel. Install it manually.
+In the filetree that appears, right-click on "data" and create a directory named "Root" (no quotes).
+Move the two .ddl files, named d3d11.dll and d3dcompiler_46e.dll respectively, from inside of WrapperVersion to Root.
+Then uncheck the boxes for everything other than Root:
+
+![ENB folder structure.](enb_dirs.PNG)
+
+
+Then name the mod something reasonable, press OK to install it, and "Ignore" on the next popup.
+Once you have ENB installed, move it to the top of the ENB section.
+Remember to enable it as well.
+
+![ENB in position.](enb_placed.PNG)
+
+
+You can check that you've done this part correctly by running MO2's explorer virtual folder program.
+Move up one directory to the game's root folder, and check that the two DLL files mentioned earlier are present.
+
+![DLLs in root folder.](enb_virt.PNG)
+
+
+### Step Ten: Customization
