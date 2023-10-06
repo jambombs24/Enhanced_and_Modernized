@@ -85,8 +85,15 @@ This should also be an empty directory.
 You can even place the downloads folder on a separate drive. Just be aware that you're liimited to the speed of your slowest drive.
 After you've chosen a downloads location, place all the LoversLab archives there.
 
-### Step Seven: Installation
+### Step Seven: Downloading
 When you're sure with all your file path decisions, press the button to start the Wabbajack installation process.
 
+First of all, every mod has to be downloaded.
 This will take some time. If you have a Nexus Mods premium account, all Nexus files will download automatically.
 Otherwise, the download button must be pressed for each mod.
+
+If Wabbajack freezes, crashes, or otherwise has to shutdown, it will pick up downloading where it left off. I've never had it crash during the actual installation process.
+
+### Step Eight: Installation
+Wabbajack will proceed to install Mod Organizer 2 and all the mods into the directory you specified earlier.
+Run the newly acquired Mod Organizer 2 executable to access the modlist.
