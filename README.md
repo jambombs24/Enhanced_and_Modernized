@@ -5,9 +5,17 @@ The list itself is here: [Skyrim 2023 Mega Mod List](https://www.nexusmods.com/s
 
 ## Requirements
 
+### Must Haves
 - Skyrim Special Edition from either Steam (1.6.640) or GOG (1.6.659).
 - The Anniversary Edition upgrade.
 - A 64-bit operating system.
+- 170 GB of free space on one drive.
+- Enough free space left over on the same drive to create a page file and still have >15% empty space.
+- Another 82 GB of free space on any drive.
+
+### Recommendations
+- 8+ GB of VRAM on a relatively modern GPU.
+- Enough drive space for the soon-to-be-made page file to be at least 20 GB.
 
 ## Installation Guide
 
@@ -20,9 +28,9 @@ To help make the game run as well as possible, you need to increase the size of 
 - Switch to the Advanced tab (again).
 - Press the Change button in the "Virtual memory" section.
 - Uncheck the box that auto-manages page file size.
-- Select whatever drive you plan to install Skyrim on.
+- Select whatever drive you plan to install this modlist on.
 - Select the "Custom size" option.
-- Set the minimum to at least 20480 (20GB), and the maximum to something higher (recommended: 40960 (40GB)).
+- Set the minimum to at least 10240, and the maximum to the same or greater (recommended: 20480 min; 40960 max).
   - You need to have enough free space on your drive to fit the whole page file, even after intsalling this list.
 - Press "Set" to commit your changes.
 - Keep pressing OK until you get out of all the settings windows.
