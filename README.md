@@ -33,6 +33,7 @@ To help make the game run as well as possible, you need to increase the size of 
 
 *I don't care how much RAM you have; you need to do this.*
 
+
 ### Step Two: Prepare Skyrim
 Uninstall Skyrim completely from your system. Then delete the whole Skyrim SE directory, which is typically something like *~\Steam\steamapps\common\Skyrim Special Edition*. Also delete the Skyrim folder at *~\Documents\My Games*.
 
@@ -43,12 +44,14 @@ Now launch Skyrim. Let the launcher set a graphics preset, and then load to Skyr
 After doing all this, you should have a **completely vanilla Skyrim AE installation**.
 Let's move on.
 
+
 ### Step Three: Accounts
 Create an account for the following websites if you don't already have one:
 - [Nexus Mods](https://www.nexusmods.com/)
 - [LoversLab](https://www.loverslab.com/)
 
-*I think LoversLab is banned in some countries. You may need a VPN if LL has indeed been blocked.*
+*Note: LoversLab is banned in some countries. You may need a VPN if LL has indeed been blocked.*
+
 
 ### Step Four: Acquire Wabbajack
 Go to [Wabbajack.org](https://www.wabbajack.org/) and download the program.
@@ -56,6 +59,7 @@ Go to [Wabbajack.org](https://www.wabbajack.org/) and download the program.
 Place the downloaded executable somewhere outside of any protected files. I have it placed in *C:\Modding\Wabbajack*. When you run this executable, is will automatically download the latest version of the entire Wabbajack program.
 
 Once you've launched Wabbajack, click the settings button in the top right. Connect to your Nexus account.
+
 
 ### Step Five: LoversLab Mods
 LoversLab has a buggy API, so it's easiest to download all the needed mods from there preemptively.
@@ -72,6 +76,7 @@ Go and download each of these:
 
 You don't need to extract any of these. Wabbajack will do that later.
 
+
 ### Step Six: Wabbajack Prep
 Download the Enhanced and Modernized archive and extract it. Keep the two files in the same location.
 
@@ -86,6 +91,7 @@ This should also be an empty directory.
 You can even place the downloads folder on a separate drive. Just be aware that you're liimited to the speed of your slowest drive.
 After you've chosen a downloads location, place all the LoversLab archives there.
 
+
 ### Step Seven: Downloading
 When you're sure with all your file path decisions, press the button to start the Wabbajack installation process.
 
@@ -96,11 +102,15 @@ Otherwise, the download button must be pressed for each mod.
 If Wabbajack freezes, crashes, or otherwise has to shutdown, it will pick up downloading where it left off. I've never had it crash during the actual installation process.
 Speaking of...
 
+
 ### Step Eight: Installation
 Wabbajack will proceed to install Mod Organizer 2 and all the mods into the directory you specified earlier.
 This will also take a fair amount of time, although not nearly as much as the downloading step.
 
 Run the newly acquired Mod Organizer 2 executable to access the modlist.
+
+Note: If you have the GOG version of the game, replace the one .dll in MO2's plugins folder with the update file found on the [Mod Organizer Nexus page](https://www.nexusmods.com/skyrimspecialedition/mods/6194).
+
 
 ### Step Nine: ENB
 There's a few more additions to make before the modlist is fully installed.
@@ -111,6 +121,7 @@ Delete "enbseries_sdk.zip" from inside the ENB archive.
 You can do this by using a tool that can manipulate archives like [PeaZip](https://peazip.github.io/), or by extracting the archive, deleting the file, and recompressing it.
 Either way, get rid of the SDK.
 
+
 ![Edited ENB archive.](enb_zip.PNG)
 
 
@@ -119,6 +130,7 @@ In the filetree that appears, right-click on "data" and create a directory named
 Move the two .ddl files, named d3d11.dll and d3dcompiler_46e.dll respectively, from inside of WrapperVersion to Root.
 Then uncheck the boxes for everything other than Root:
 
+
 ![ENB folder structure.](enb_dirs.PNG)
 
 
@@ -126,13 +138,26 @@ Then name the mod something reasonable, press OK to install it, and "Ignore" on 
 Once you have ENB installed, move it to the top of the ENB section.
 Remember to enable it as well.
 
+
 ![ENB in position.](enb_placed.PNG)
 
 
 You can check that you've done this part correctly by running MO2's explorer virtual folder program.
 Move up one directory to the game's root folder, and check that the two DLL files mentioned earlier are present.
 
+
 ![DLLs in root folder.](enb_virt.PNG)
 
 
+
 ### Step Ten: Customization
+There are a few things you can do to customize the modlist.
+
+First of all, if you're on GOG, set the active profile to "GOG". This switches all version-specific SKSE plugins to their 1.6.659 variants.
+
+If you prefer that your player character does not speak and remains silent, expand the "Bottom Dwellers" section and disable all of these:
+- Dragonborn Voice Over
+- Dragonborn Voice Over Dialogue Interface ReShaped Patch
+- Dragonborn Voice Over - Plugin Replacer
+- DBVO Plugin Replacer - Reverb Interior Sound Expansion Patch
+- Bella Voice DBVO
