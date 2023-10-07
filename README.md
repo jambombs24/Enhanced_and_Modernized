@@ -172,9 +172,16 @@ If you prefer that your player character does not speak and remains silent, expa
 - DBVO Plugin Replacer - Reverb Interior Sound Expansion Patch
 - Bella Voice DBVO
 
-### Step Eleven: Playing the Game!
-Time to finally play Skyrim.
+### Step Eleven: Playing the Game
+Almost time to finally play Skyrim!
 
-- Load the save provided.
-- Press [Enter], and select the RaceMenu option to create your character.
-- 
+- Download one of the saves provided. Make sure to download the correct version (either Steam or GOG).
+- If you've decided to have the player character remain silent, get one of the NoVoice saves.
+- Extract the archive. You'll end up with two files.
+- Move both of these files into the "saves" folder of whatever profile you're using. A save will appear in the Saves panel in MO2.
+- Run the game, and load the save you just installed.
+- You'll spawn in the waiting room. Press [Enter], and select the RaceMenu option to create your character.
+- Open the Skyrim Unbound MCM to cuztomize how you'll start, or just press [Enter] and then "Continue" to get right into things.
+- You should be good to go! Go play Skyrim.
+
+Took long enough, didn't it?
