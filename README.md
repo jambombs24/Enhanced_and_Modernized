@@ -115,7 +115,8 @@ Speaking of...
 Wabbajack will proceed to install Mod Organizer 2 and all the mods into the directory you specified earlier.
 This will also take a fair amount of time, although not nearly as much as the downloading step.
 
-Run the newly acquired Mod Organizer 2 executable to access the modlist.
+Run the newly acquired Mod Organizer 2 executable to access the modlist. The "Native Content" separator likes to move below the actual native files.
+Move it back to the top if you want to.
 
 Note: If you have the GOG version of the game, replace the one .dll in MO2's plugins folder with the update file found on the [Mod Organizer Nexus page](https://www.nexusmods.com/skyrimspecialedition/mods/6194).
 
@@ -162,6 +163,7 @@ Move up one directory to the game's root folder, and check that the two DLL file
 There are a few things you can do to customize the modlist.
 
 First of all, if you're on GOG, set the active profile to "GOG". This switches all version-specific SKSE plugins to their 1.6.659 variants.
+Note: For some reason, all 1.6.640 versions of the mods that get switched will move to the bottom of the list. You can just leave them alone.
 
 If you prefer that your player character does not speak and remains silent, expand the "Bottom Dwellers" section and disable all of these:
 - Dragonborn Voice Over
@@ -169,3 +171,10 @@ If you prefer that your player character does not speak and remains silent, expa
 - Dragonborn Voice Over - Plugin Replacer
 - DBVO Plugin Replacer - Reverb Interior Sound Expansion Patch
 - Bella Voice DBVO
+
+### Step Eleven: Playing the Game!
+Time to finally play Skyrim.
+
+- Load the save provided.
+- Press [Enter], and select the RaceMenu option to create your character.
+- 
