@@ -159,6 +159,7 @@ Move up one directory to the game's root folder, and check that the two DLL file
 
 
 
+Note: Press [;] to open the ENB GUI in-game.
 ### Step Ten: Customization
 There are a few things you can do to customize the modlist.
 
