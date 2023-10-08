@@ -2,6 +2,7 @@
 Github page for the Skyrim load order Enhanced and Modernized.
 
 The list itself is here: [Skyrim 2023 Mega Mod List](https://www.nexusmods.com/skyrimspecialedition/mods/82863).
+Get the Wabbajack file here: [Skyrim 2023 MML - Wabbajack Installer](https://www.nexusmods.com/skyrimspecialedition/mods/102120).
 
 ## Requirements
 
@@ -53,6 +54,8 @@ Now launch Skyrim. Let the launcher set a graphics preset, and then load to Skyr
 After doing all this, you should have a **completely vanilla Skyrim AE installation**.
 Let's move on.
 
+This list makes use of ![Root Builder](https://www.nexusmods.com/skyrimspecialedition/mods/31720), meaning that your actual game installation will be left *mostly* untouched.
+The one change I can think of is that all of the game's plugins are going to be cleaned.
 
 ### Step Three: Accounts
 Create an account for the following websites if you don't already have one:
@@ -83,7 +86,7 @@ Go and download each of these:
 - [Lydia the Loyal](https://www.loverslab.com/files/file/27805-lydia-the-loyal/) (Latest SLab edition.)
 - [Jordis the Naive or Naughty](https://www.loverslab.com/files/file/27555-jordis-the-naive-or-naughty-sexlab-and-flower-girl-editions/) (Latest SLab edition.)
 
-You don't need to extract any of these. Wabbajack will do that later.
+You don't need to extract any of these; Wabbajack will do that later.
 
 
 ### Step Six: Wabbajack Prep
