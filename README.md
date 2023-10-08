@@ -15,7 +15,7 @@ The list itself is here: [Skyrim 2023 Mega Mod List](https://www.nexusmods.com/s
 
 ### Recommendations
 - 8+ GB of VRAM on a relatively modern GPU.
-- Enough drive space for the soon-to-be-made page file to be at least 20 GB.
+- Enough drive space for the soon-to-be-made page file to be *at least* 10 GB, although 20 GB is the goal.
 
 ## Installation Guide
 
@@ -32,6 +32,7 @@ To help make the game run as well as possible, you need to increase the size of 
 - Select the "Custom size" option.
 - Set the minimum to at least 10240, and the maximum to the same or greater (recommended: 20480 min; 40960 max).
   - You need to have enough free space on your drive to fit the whole page file, even after intsalling this list.
+  - You also need to make sure that you don't go beneath 15% free space available, or the drive will slow down significantly.
 - Press "Set" to commit your changes.
 - Keep pressing OK until you get out of all the settings windows.
 - Restart your computer.
@@ -176,12 +177,15 @@ If you prefer that your player character does not speak and remains silent, expa
 ### Step Eleven: Playing the Game
 Almost time to finally play Skyrim!
 
-- Download one of the saves provided. Make sure to download the correct version (either Steam or GOG).
+- Download one of the ![saves provided](https://github.com/jambombs24/Enhanced_and_Modernized/releases). Make sure to download the correct version (either Steam or GOG).
 - If you've decided to have the player character remain silent, get one of the NoVoice saves.
 - Extract the archive. You'll end up with two files.
 - Move both of these files into the "saves" folder of whatever profile you're using. A save will appear in the Saves panel in MO2.
 - Run the game, and load the save you just installed.
 - You'll spawn in the waiting room. Press [Enter], and select the RaceMenu option to create your character.
+- Once you're done with that, press [Shift] and [Home] to open the Improved Camera editor.
+- Select the OStim profile, and enable "First Person Overhaul" under View -> Fixes.
+- Save the profile.
 - Open the Skyrim Unbound MCM to cuztomize how you'll start, or just press [Enter] and then "Continue" to get right into things.
 - You should be good to go! Go play Skyrim.
 
