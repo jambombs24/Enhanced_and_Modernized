@@ -4,6 +4,8 @@ Github page for the Skyrim load order Enhanced and Modernized.
 The list itself is here: [Skyrim 2023 Mega Mod List](https://www.nexusmods.com/skyrimspecialedition/mods/82863).
 Get the Wabbajack file here: [Skyrim 2023 MML - Wabbajack Installer](https://www.nexusmods.com/skyrimspecialedition/mods/102120).
 
+**This list is still quite new! Consider the current release as a beta (hence the <1 version number).**
+
 ## Requirements
 
 ### Must Haves
