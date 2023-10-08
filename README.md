@@ -43,6 +43,14 @@ To help make the game run as well as possible, you need to increase the size of 
 
 *I don't care how much RAM you have; you need to do this.*
 
+We'll also increase the shader cache.
+On systems with a NVidia GPU, open "NVIDIA Control Panel" and choose "Manage 3D settings" on the left.
+Then scroll down until you find "Shader Cache Size" and set it to 10 GB or greater.
+
+![NVidia control panel.](https://github.com/jambombs24/Enhanced_and_Modernized/blob/main/nvidia_panel.PNG)
+
+
+On systems with an AMD or Intel Arc GPU, you'll have to find the equivalent setting(s).
 
 ### Step Two: Prepare Skyrim
 Uninstall Skyrim completely from your system. Then delete the whole Skyrim SE directory, which is typically something like *~\Steam\steamapps\common\Skyrim Special Edition*. Also delete the Skyrim folder at *~\Documents\My Games*.
