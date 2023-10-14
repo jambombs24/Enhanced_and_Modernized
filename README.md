@@ -187,6 +187,8 @@ If you prefer that your player character does not speak and remains silent, expa
 - DBVO Plugin Replacer - Reverb Interior Sound Expansion Patch
 - Bella Voice DBVO
 
+(If they're already disabled, it means I created the silent save file after the other one and forgot to re-enable them before compiling the Wabbajack file.)
+
 ### Step Eleven: Playing the Game
 Almost time to finally play Skyrim!
 
@@ -194,6 +196,7 @@ Almost time to finally play Skyrim!
 - If you've decided to have the player character remain silent, get the "NoVoice" save.
 - Extract the archive. You'll end up with two files.
 - Move both of these files into the "saves" folder of whatever profile you're using. A save will appear in the Saves panel in MO2.
+- Read ![this article](https://www.nexusmods.com/skyrimspecialedition/articles/5316). The INI tweaks have already been applied.
 - Run the game, and load the save you just installed.
 - You'll spawn in the waiting room. Press [Enter], and select the RaceMenu option to create your character.
 - Once you're done with that, press [Shift] and [Home] to open the Improved Camera editor.
