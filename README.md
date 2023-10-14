@@ -190,8 +190,8 @@ If you prefer that your player character does not speak and remains silent, expa
 ### Step Eleven: Playing the Game
 Almost time to finally play Skyrim!
 
-- Download one of the ![saves provided](https://github.com/jambombs24/Enhanced_and_Modernized/releases). Make sure to download the correct version (either Steam or GOG).
-- If you've decided to have the player character remain silent, get one of the NoVoice saves.
+- Download one of the ![saves provided](https://github.com/jambombs24/Enhanced_and_Modernized/releases).
+- If you've decided to have the player character remain silent, get the "NoVoice" save.
 - Extract the archive. You'll end up with two files.
 - Move both of these files into the "saves" folder of whatever profile you're using. A save will appear in the Saves panel in MO2.
 - Run the game, and load the save you just installed.
