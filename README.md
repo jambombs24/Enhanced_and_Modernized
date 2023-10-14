@@ -177,7 +177,7 @@ Note: Press [;] to open the ENB GUI in-game.
 ### Step Ten: Customization
 There are a few things you can do to customize the modlist.
 
-First of all, if you're on GOG, set the active profile to "GOG". This switches all version-specific SKSE plugins to their 1.6.659 variants.
+First of all, make sure the active profile matches the version of the game you have installed (Steam for 1.6.640, or GOG for 1.6.659).
 Note: For some reason, all 1.6.640 versions of the mods that get switched will move to the bottom of the list. You can just leave them alone.
 
 If you prefer that your player character does not speak and remains silent, expand the "Bottom Dwellers" section and disable all of these:
