@@ -150,7 +150,7 @@ Either way, get rid of the SDK.
 
 After that, drag the recompressed archive into MO2's downloads panel. Install it manually.
 In the filetree that appears, right-click on "data" and create a directory named "Root" (no quotes).
-Move the two .ddl files, named d3d11.dll and d3dcompiler_46e.dll respectively, from inside of WrapperVersion to Root.
+Move the two .dll files, named d3d11.dll and d3dcompiler_46e.dll respectively, from inside of WrapperVersion to Root.
 Then uncheck the boxes for everything other than Root:
 
 
@@ -197,7 +197,7 @@ Almost time to finally play Skyrim!
 - Run the game, and load the save you just installed.
 - You'll spawn in the waiting room. Press [Enter], and select the RaceMenu option to create your character.
 - Once you're done with that, press [Shift] and [Home] to open the Improved Camera editor.
-- Select the OStim profile, and enable "First Person Overhaul" under View -> Fixes.
+- Select the OStim profile, and enable "First Person Overhaul" under View -> Fixes. (This might already be set properly, but check just in case.)
 - Save the profile.
 - Open the Skyrim Unbound MCM to cuztomize how you'll start, or just press [Enter] and then "Continue" to get right into things.
 - You should be good to go! Go play Skyrim.
